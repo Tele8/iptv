@@ -1,0 +1,51 @@
+#EXTM3U
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Кино и сериалы" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/balabol_vse.jpg",НТВ Балабол HD
+https://cdn-dvr.ntv.ru/Balabol/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Кино и сериалы" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/nevski_llive.jpg",НТВ Невский HD
+https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Кино и сериалы" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/perv_otdel_llive.jpg",НТВ Первый Отдел HD
+https://cdn-dvr.ntv.ru/Perviy_otdel/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Кино и сериалы" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/pes_llive.jpg",НТВ Пёс HD
+https://cdn-dvr.ntv.ru/Pes/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Кино и сериалы" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/5minut_live.jpg",НТВ Пять минут тишины HD
+https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Кино и сериалы" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/shef_llive.jpg",НТВ Шеф HD
+https://cdn-dvr.ntv.ru/Shef/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Кино и сериалы" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/5/51/%D0%9D%D0%A2%D0%92_%D0%A5%D0%B8%D1%82.png/revision/latest/scale-to-width-down/150?cb=20171231073958&path-prefix=ru",НТВ Хит
+https://cdn-dvr.ntv.ru/th_hit/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Кино и сериалы" tvg-logo="https://clck.ru/3RYSZX",НТВ Сериал
+https://cdn-dvr.ntv.ru/th_serial/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Познавательные" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/5/56/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F_%282023%29.png/revision/latest/scale-to-width-down/220?cb=20230514135658&path-prefix=ru",Неизвестная Россия HD
+http://cdn2.ntv.ru/unknown_russia/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Познавательные" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/e/e9/NTV_Stil%27_%282021%29.svg/revision/latest/scale-to-width-down/220?cb=20230707052850&path-prefix=ru",НТВ Стиль
+http://cdn-dvr.ntv.ru/th_style/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Познавательные" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/sledstvie_veli_llive.jpg",НТВ Следствие вели... HD
+https://cdn-dvr.ntv.ru/sledstvie/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Познавательные" tvg-logo="https://clck.ru/3RYSb5",НТВ Право
+https://cdn-dvr.ntv.ru/th_pravo/index.m3u8
+#EXTINF:-0 group-title="Часовые пояса" tvg-logo=",НТВ +1
+http://cdn2.ntv.ru/ntv1/index.m3u8
+#EXTINF:-0 group-title="Часовые пояса" tvg-logo=",НТВ +2
+http://cdn.ntv.ru/ntv2/index.m3u8
+#EXTINF:-0 group-title="Часовые пояса" tvg-logo=",НТВ +4
+http://cdn.ntv.ru/ntv4/index.m3u8
+#EXTINF:-0 group-title="Часовые пояса" tvg-logo=",НТВ +7
+http://cdn2.ntv.ru/ntv7/index.m3u8
+#EXTINF:-0 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Часовые пояса" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/c/c9/%D0%A1%D1%83%D0%B1%D0%B1%D0%BE%D1%82%D0%B0_1.png/revision/latest/scale-to-width-down/220?cb=20210210132516&path-prefix=ru",Суббота! +2
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8
+#EXTINF:-0 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Часовые пояса" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/c/c9/%D0%A1%D1%83%D0%B1%D0%B1%D0%BE%D1%82%D0%B0_1.png/revision/latest/scale-to-width-down/220?cb=20210210132516&path-prefix=ru",Суббота! +4
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8
+#EXTINF:-0 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Часовые пояса" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/c/c9/%D0%A1%D1%83%D0%B1%D0%B1%D0%BE%D1%82%D0%B0_1.png/revision/latest/scale-to-width-down/220?cb=20210210132516&path-prefix=ru",Суббота! +7
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Основные" tvg-logo="https://static2.ntv.ru/static/images/logo.png",НТВ HD
+http://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8
+#EXTINF:-0 catchup="flussonic" catchup-days="7" group-title="Развлекательные" tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/ti_super_llive.jpg",НТВ Ты супер! HD
+http://cdn-dvr.ntv.ru/Super/index.m3u8
+#EXTINF:-0 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-logo="https://clck.ru/3RYTQN",Солнце
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
+#EXTINF:-0 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/a/a9/%D0%A2%D0%9D%D0%A24_%28%D1%81_31.12.2022-%D0%BD.%D0%B2.%29.png/revision/latest/scale-to-width-down/250?cb=20230917055321&path-prefix=ru",ТНТ4
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
+#EXTINF:-0 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/c/c9/%D0%A1%D1%83%D0%B1%D0%B1%D0%BE%D1%82%D0%B0_1.png/revision/latest/scale-to-width-down/220?cb=20210210132516&path-prefix=ru",Суббота!
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
+#EXTINF:-0 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Развлекательные" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/9/96/%D0%A7%D0%B5%21_%282020%2C_%D0%BC%D0%BE%D0%BD%D0%BE%2C_%D0%B1%D0%B5%D0%BB%D1%8B%D0%B9%29.png/revision/latest/scale-to-width-down/60?cb=20200301181714&path-prefix=ru",Че!
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
