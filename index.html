@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>Редактор M3U8</title>
+<title>Редактор M3U8 на GitHub Pages</title>
 <style>
 body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
 h1 { text-align: center; }
@@ -16,7 +16,7 @@ textarea { width: 100%; height: 150px; margin-top: 20px; padding: 10px; }
 </head>
 <body>
 
-<h1>Редактор M3U8</h1>
+<h1>Редактор M3U8 (GitHub Pages)</h1>
 <div id="editor">
     <input type="text" id="newUrl" placeholder="Введите URL .m3u8">
     <button onclick="addUrl()">Добавить</button>
@@ -27,6 +27,11 @@ textarea { width: 100%; height: 150px; margin-top: 20px; padding: 10px; }
 
 <script>
 let playlist = [];
+
+// Загружаем из localStorage, если есть
+if(localStorage.getItem('liveM3U8')) {
+    playlist = JSON.parse(localStorage.getItem('liveM3U8'));
+}
 
 function renderPlaylist() {
     const ul = document.getElementById('playlist');
@@ -41,6 +46,7 @@ function renderPlaylist() {
         ul.appendChild(li);
     });
     updateOutput();
+    saveToLocal();
 }
 
 function addUrl() {
@@ -69,10 +75,13 @@ function deleteUrl(index) {
 function updateOutput() {
     const output = document.getElementById('m3u8Output');
     let content = '#EXTM3U\n';
-    playlist.forEach(url => {
-        content += url + '\n';
-    });
+    playlist.forEach(url => content += url + '\n');
     output.value = content;
+}
+
+// Сохраняем в localStorage
+function saveToLocal() {
+    localStorage.setItem('liveM3U8', JSON.stringify(playlist));
 }
 
 // Скачать как live.m3u8
@@ -90,4 +99,3 @@ renderPlaylist();
 
 </body>
 </html>
-
