@@ -1,0 +1,5 @@
+#EXTM3U url-tvg="http://epg.sevstar.net/tvprog.xml.gz" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}" m3uautoload=1
+
+#EXTINF:0 tvg-name="Первый канал" tvg-logo="http://tv.sevstar.net/logos/1916.png" group-title="Общероссийские", Первый канал
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
